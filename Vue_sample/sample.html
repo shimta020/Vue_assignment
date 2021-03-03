@@ -8,9 +8,9 @@
     <body>
         <div id="app">
             <!-- v-model="name"で、Vue.jsで設定したdateとHTMLのinput要素が同期する -->
-            名前：<input v-model="name">
-            コース：<input v-model="course">
-            受講期：<input v-model="acceptancePeriod">
+            名前：<input v-model="name" placeholder="名前" >
+            コース：<input v-model="course" placeholder="コース" >
+            受講期：<input v-model="acceptancePeriod" placeholder="受講期" >
             <br>
             <!-- button v-on:click="addStudent"で、buttonがclickされた時に起動するメソッドを選択する -->
             <button v-on:click="addStudent">入力した生徒を追加する</button>
