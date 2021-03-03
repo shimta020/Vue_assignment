@@ -21,7 +21,7 @@ new Vue({
         if(!this.name || !this.course || !this.acceptancePeriod){
           return false
         }
-        this.students.push({id: this.defaultLastId + 1,
+        this.students.push({id: this.defaultLastId += 1,
                             name: this.name,
                             course: this.course,
                             acceptancePeriod: this.acceptancePeriod})
